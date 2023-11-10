@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>weather</title>
+	</head>
+	<body>
+		<header>
+			<h1>Open weather</h1>
+		</header>
+		<main>
+			<div class="search-container">
+				<input id="search" type="search" placeholder="search country" />
+				<button id="search-btn">Search</button>
+			</div>
+			<div class="weather-wrapper">
+				<div class="place-name">
+					<h2>-----</h2>
+				</div>
+				<div class="weather-info">
+					<h1 class="weather">----</h1>
+					<div class="temps-info">
+						<h3>Temp: <span class="temp">--°</span></h3>
+						<h3>
+							Min-temp:
+							<span class="max-temp">--°</span>
+						</h3>
+						<h3>
+							Max-temp:
+							<span class="min-temp">--°</span>
+						</h3>
+					</div>
+				</div>
+			</div>
+		</main>
+		<script type="module" src="index.js"></script>
+	</body>
+</html>
